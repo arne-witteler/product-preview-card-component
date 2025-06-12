@@ -1,14 +1,8 @@
+@import url("variables.css");
+
 * {
   box-sizing: border-box;
-}
-
-:root {
-  --color-green-500: hsl(158, 36%, 37%);
-  --color-green-700: hsl(158, 42%, 18%);
-  --color-black: hsl(212, 21%, 14%);
-  --color-grey: hsl(228, 12%, 48%);
-  --color-cream: hsl(30, 38%, 92%);
-  --color-white: hsl(0, 0%, 100%);
+  background-color: var(--color-cream);
 }
 
 .attribution {
@@ -18,4 +12,30 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.container {
+  display: flex;
+}
+
+.product {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.desktop__img {
+  display: none;
+}
+.mobile__img {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .desktop__img {
+    display: block;
+  }
+  .mobile__img {
+    display: none;
+  }
 }
