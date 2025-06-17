@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor solution](https://github.com/arne-witteler/product-preview-card-component)
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/responsive-product-card-with-clean-html-and-css-FcK5hVOecw)
 - Live Site URL: [Live Demo](https://product-preview-card-component-six-sigma.vercel.app)
 
 ## My process
