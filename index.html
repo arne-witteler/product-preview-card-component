@@ -17,13 +17,13 @@
       <article class="product">
         <div class="product__img">
           <img
-            class="desktop__img"
-            src="images/image-product-desktop.jpg"
-            alt="chanel parfum"
-          />
-          <img
-            class="mobile__img"
+            class="product__img-element"
             src="images/image-product-mobile.jpg"
+            srcset="
+              images/image-product-mobile.jpg  600w,
+              images/image-product-desktop.jpg 601w
+            "
+            sizes="(min-width: 600px) 50vw, 100vw"
             alt="chanel parfum"
           />
         </div>
@@ -38,7 +38,13 @@
             <p class="product__price">$149.99</p>
             <p class="product__strikeprice">$169.99</p>
           </section>
-          <button>Add to Cart</button>
+          <button
+            class="product__button"
+            arie-lale="Add Gabrielle Essence Eau De Parfum to cart"
+          >
+            <img src="images/icon-cart.svg" alt="" aria-hidden="true" />Add to
+            Cart
+          </button>
         </div>
       </article>
     </main>
