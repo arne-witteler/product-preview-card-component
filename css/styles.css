@@ -15,7 +15,7 @@ body {
 
 .container {
   margin: 2rem 1rem;
-  max-width: 600px;
+  max-width: 30rem;
 }
 
 .product {
@@ -34,7 +34,7 @@ body {
 .product__img img {
   width: 100%;
   height: auto;
-  max-height: 250px;
+  max-height: 15rem;
   object-fit: cover;
   display: block;
 }
@@ -46,7 +46,7 @@ body {
 
 .product__category {
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 0.15rem;
   font-size: 0.75rem;
   color: var(--color-grey);
   margin-bottom: 0.5rem;
@@ -124,15 +124,15 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 35rem) {
   .container {
     margin: 4rem auto;
-    max-width: 700px;
+    max-width: 40rem;
   }
 
   .product {
     flex-direction: row;
-    max-width: 800px;
+    max-width: 50rem;
   }
 
   .desktop__img {
